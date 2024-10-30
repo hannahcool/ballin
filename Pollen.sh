@@ -6,7 +6,7 @@ if [ $(id -u) -ne 0 ]; then
 fi
 
 echo "+##############################################+"
-echo "| Welcome to Pollen!                           |"
+echo "| Welcome to Ballin!                           |"
 echo "| The User Policy Editor                       |"
 echo "| -------------------------------------------- |"
 echo "| Developers:                                  |"
@@ -14,7 +14,7 @@ echo "| - OlyB                                       |"
 echo "| - Rafflesia                                  |"
 echo "| - r58Playz                                   |"
 echo "+##############################################+"
-echo "May Ultrablue rest in peace, o7."
+echo "May Ultrablue rest in piss, o7."
 
 
 sleep 1
@@ -24,29 +24,29 @@ echo '{
   "URLBlocklist": [],
   "SystemFeaturesDisableList": [],
   "EditBookmarksEnabled": true,
-  "ChromeOsMultiProfileUserBehavior": "unrestricted",
+  "ChromeOsMultiProfileUserBehavior": "restricted",
   "DeveloperToolsAvailability": 1,
   "DefaultPopupsSetting": 1,
   "AllowDeletingBrowserHistory": true,
   "AllowDinosaurEasterEgg": true,
   "IncognitoModeAvailability": 0,
   "AllowScreenLock": true,
-  "ExtensionAllowedTypes": null,
-  "ExtensionInstallAllowlist": null,
-  "ExtensionInstallBlocklist": null,
-  "ExtensionInstallForcelist": null,
+  "ExtensionAllowedTypes": ["*"],
+  "ExtensionInstallAllowlist": ["*"],
+  "ExtensionInstallBlocklist": ["iibninhmiggehlcdolcilmhacighjamp"],
+  "ExtensionInstallForcelist": ["ddkjiahejlhfcafbddmgiahcphecmpfh"],
   "ExtensionSettings": null,
   "PasswordManagerEnabled": "true",
   "TaskManagerEndProcessEnabled": "true",
   "UptimeLimit": "null",
   "SystemTerminalSshAllowed": "true",
-  "SystemTimezone": "",
+  "SystemTimezone": "America/New_York",
   "IsolatedAppsDeveloperModeAllowed": "true",
   "ForceGoogleSafeSearch": "false",
   "ForceYouTubeRestrict": "0",
   "EasyUnlockAllowed": "true",
   "DisableSafeBrowsingProceedAnyway": "false",
-  "DeviceAllowNewUsers": "true",
+  "DeviceAllowNewUsers": "false",
   "DevicePowerAdaptiveChargingEnabled": "true",
   "DeviceGuestModeEnabled": "true",
   "DeviceUnaffiliatedCrostiniAllowed": "true",
